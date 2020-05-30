@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <!--Para activar efectos de JavaScript para Menus-->
+    <script> 
+         document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+         });
+    </script>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lipstick Glamour</title>
+</head>
+<body>
+    
+    <!-- Barra de navegación-->
+    <div class="navbar-fixed">
+      <nav class="green">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Lipstick Glamour</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <!-- Menu para dispositivos móviles-->
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <ul class="tabs tabs-transparent">
+                <li class="tab"><a href="#carrusel">INICIO</a></li>
+                <li class="tab"><a href="#produ">PRODUCTOS</a></li>
+                <li class="tab"><a href="#colap">ACERCA DE NOSOTROS</a></li>
+                <li class="tab"><a href="#card">NOVEDADES</a></li>
+                <li class="tab"><a href="#form">DONDE ENCONTRARNOS</a></li>
+                <li class="tab"><a href="#contac">CONTACTO</a></li>
+              </ul>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#carrusel">INICIO</a></li>
+      <li><a href="index.html#produ">PRODUCTOS</a></li>
+      <li><a href="#colap">ACERCA DE NOSOTROS</a></li>
+      <li><a href="#card">NOVEDADES</a></li>
+      <li><a href="#form">DONDE ENCONTRARNOS</a></li>
+      <li><a href="#contac">CONTACTO</a></li>
+    </ul>
+    
+    
+      <!-- Galeria de imagenes en forma de carrusel-->
+      <div id="carrusel" class="col s12">
+        <h2 align="center" ><b>BELLEZA, ACCESORIOS, MAQUILLAJES Y MÁS!</b></h2>
+        <h2 align="center"><img src="logo.png" height="100" width="200"></h2>
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="https://cdn.makeupandbeauty.com/wp-content/uploads/2011/11/A+Guide+to+MAC+Lipstick+Finishes.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="https://www.thebeautyeffect.com/wp-content/uploads/2019/01/Los-lipsticks-mas-iconicos-de-mac-cosmetics_secundaria.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="https://i.pinimg.com/originals/b1/ba/f9/b1baf94fd4e58bde7df4b4cea1f80f39.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="https://i.pinimg.com/originals/41/db/78/41db78deb729f25625fe62d8c98ae02b.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="https://cdn2.glamour.es/uploads/images/thumbs/es/glam/4/s/2017/46/mac_maquillaje_black_friday_ruby_woo_studio_fix_2648_820x820.jpg"></a>
+        </div>
+      </div>
+
+      <div id="produ">
+        <h2 align="center"><b>Esto y más en nuestra tienda</b> </h2>
+        <div class="row">
+
+          <div class="col s3">
+            <img src="gal1.jpg" height="200" width="300">
+          </div>
+    
+          <div class="col s3">
+            <img src="gal6.jpg" height="200" width="300">
+          </div>
+          <div class="col s3">
+            <img src="gal2.jpg" height="200" width="300">
+          </div>
+    
+          <div class="col s3">
+            <img src="gal7.jpg" height="200" width="300">
+          </div>
+          <div class="col s3">
+            <img src="gal3.jpg" height="200" width="300">
+          </div>
+          
+          <div class="col s3">
+            <img src="gal8.jpg" height="200" width="300">
+          </div>
+    
+          <div class="col s3">
+            <img src="gal4.jpg" height="200" width="300">
+          </div>
+          <div class="col s3">
+            <img src="gal9.jpg" height="200" width="300">
+          </div>
+          <div class="col s3">
+            <img src="gal5.jpg" height="200" width="300">
+          </div>
+          
+          <div class="col s3">
+            <img src="gal10.jpg" height="200" width="300">
+          </div>
+    
+          <div class="col s3">
+            <img src="gal12.jpg" height="200" width="300">
+          </div>
+          <div class="col s3">
+            <img src="gal12.jpg" height="200" width="300">
+          </div>
+        </div>
+
+      </div>
+
+
+      <div id="colap" class="col s12">
+          <!-- Elementos colapsables -->
+        <ul class="collapsible">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">personas</i>Quiénes somos</div>
+              <div class="collapsible-body"><span>Somos una empresa llamada "Lipstick Glamour"</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">place</i>Dónde estamos</div>
+              <div class="collapsible-body"><span>Nuestra única sucursal se encuentra en San José Iturbide, Guanajuato. En el apartado de "DÓNDE CONTACTARNOS" se encuentra nuestra ubicación exacta.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">alarma</i>Nuestro Horario</div>
+              <div class="collapsible-body"><span>Nos encontramos de Lunes a Sábado de 10:00 am- 08:00 pm</span></div>
+            </li>
+          </ul>
+           <!-- BANDEJA LATERAL-->
+           <h3 align="center" class="red-text text-darken-2"><b>------------------------¡Más acerca de nosotros!-----------------------</b></h3>
+        
+           <div class="row">
+            <div class="col s12 m4 l3"> 
+              <h5 align="center" class="blue">Fundador</h5>
+              <img src="perfil.jpg" height="300" width="300" align="center">
+              <p align="justify">Mi nombre es Berenice Abigail Briones Gómez. La idea de esta nueva empresa ha surgido debido a que soy una grana aficionada de los accesorios y Maquillaje
+                El maquillaje es una menera de transmitir lo que sientes, un maquillaje habla de la personalidad de cada individuo.
+              </p>
+            </div>
+      
+            <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
+              <h5 align="center" >Objetivo de la empresa</h5>
+              <h2 align="center"><img src="logo.png"></h2>
+
+            <p align="justify">El objetivo de esta empresa es dar a conocer accesorios como collares, pulceras, brochas y maquillaje
+              para todas las mujeres que sean amantes a la vanidad. Para en un futuro posicionarnos en el mercado, 
+              y hacer alianzas con diferentes marcas y poder manejar diferentes tipos de accesorios
+            </p>
+            <h2 align="center"><img src="funny.gif" alt="Funny image"></h2>
+            </div>
+        </div>
+      </div>
+        
+      <div id="card" class="col s12" align="center">
+        <h3 align="center"><b>CONOCE NUESTRAS OFERTAS</b></h3>
+          <!-- Tarjeta completa -->
+          <div class="row">
+            <div class="col s6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="oferta.jpg">
+                  <span class="card-title">Maquillaje</span>
+                  <a href="index.html#produ" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                  <p>Productos en promocion, cada semana podrás encontrar diferentes productos en promoción.</p>
+                </div>
+              </div>
+            </div>
+          
+           <!-- Tarjeta completa  2da -->       
+            <div class="col s6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="oferta.jpg">
+                  <span class="card-title">Accesorios</span>
+                  <a href="index.html#produ" class="btn-floating halfway-fab waves-effect waves-light red" ><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                  <p>Productos en promocion más baja, están por agotarse. No esperes más y adquiere algo nuevo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+      
+      <div id="contac" class="col s12">
+        <h3 align="center"><b>¡COMENTANOS!</b></h3>
+          <!-- CONTACTO -->
+          <form action="">
+            <div>
+              <div class="collapsible-header"></div><i class="material-icons">persona</i><br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Máximo de 80 letras">
+            </div>
+            <div>
+              <div class="collapsible-header"></div><i class="material-icons">person_pin_circle</i><br>
+              <label for="direccion">Dirección:</label>
+              <input type="text" id="direccion" placeholder="Máximo de 100 letras y/o numeros">
+          </div>
+    
+            <div>
+              <div class="collapsible-header"></div><i class="material-icons">mail_outlineenviar</i><br>
+                <label  for="email">Email:</label>
+                <input type="text" id="email" placeholder="Escriba su email">
+            </div>
+            <div>
+              <div class="collapsible-header"></div><i class="material-icons">phone_iphone</i><br>
+              <label for="telefono">Teléfono:</label>
+              <input type="text" id="telefono" placeholder="Escribe tu número teléfonico">
+          </div>
+          <div>
+          <div class="collapsible-header"></div><i class="material-icons">laptop_mac</i><br>
+          <label for="mensaje">Mensaje:</label>
+          <input type ="textarea" name="mensaje" id="mensaje"  placeholder="describe brevemente" />
+          </div>
+          <div>
+           <div class="collapsible-header"></div><i class="material-icons">offline_pin</i><br>
+           <label for="check">¿Desea recibir más información?:</label>
+           <p>
+          <label>
+            <input type="checkbox" name="check" id="check"  />
+            <span>Si</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="check" id="check" />
+            <span>No</span>
+          </label>
+        </p>
+          </div>
+
+            <input type="submit" value="Enviar" onclick="return enviarFormulario();">
+        </form>
+      </br>
+        <script src="app2.js"></script>
+      </div>
+
+       <!-- MAPA -->
+      <div id="form" class="col s12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.230001414477!2d-100.3993964857555!3d20.983415494702175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d4baded4f3f24f%3A0xeea240b58dd61d4e!2sJardines%20de%20Michoac%C3%A1n%2C%20Jardines%20de%20Maria%20Teresa%2C%2037980%20San%20Jos%C3%A9%20Iturbide%2C%20Gto.!5e0!3m2!1ses!2smx!4v1590552182685!5m2!1ses!2smx" width="1350" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    <div class="social">
+        <ul>
+          <li><a href="http://www.facebook.com/" target="_blank" class="icon-facebook"></a></li>
+          <li><a href="http://www.twitter.com/" target="_blank" class="icon-twitter"></a></li>
+          <li><a href="http://www.googleplus.com/" target="_blank" class="icon-googleplus"></a></li>
+          <li><a href="http://www.pinterest.com/" target="_blank" class="icon-pinterest"></a></li>
+          <li><a href="mailto:contacto@hola.com" class="icon-mail"></a></li>
+        </ul>
+    </div>
+</body>
+<footer class="green">
+  <div class="container" align="center">
+    <div>
+      <p>Lipstick Glamour</p>
+      <p>¡Ven y encontrarás todo lo que necesitas!</p>
+    </div>
+  </div>
+  <div class="footer-copyright" align="center">
+    <div class="container">
+      ©Lipstick Glomour
+    </div>
+  </div>
+
+</footer>
+
+</html>
